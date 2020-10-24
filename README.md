@@ -32,22 +32,22 @@ Order Services
   * DELETE - order/{orderId}
   
 Product Services 
-    * GET - products/ 
-    * POST - products/
-    * GET - products/{productId}
-    * PATCH - products/{productId}
-    * DELETE - products/{productId}
+  * GET - products/ 
+  * POST - products/
+  * GET - products/{productId}
+  * PATCH - products/{productId}
+  * DELETE - products/{productId}
     
 Book Sevices 
-    * GET - library/ 
-    * GET - library/books
-    * GET - library/books/{id_number}
-    * POST - library/books
-    * PUT - library/books/{book_title}
-    * DELETE - library/books/{book_title}
+  * GET - library/ 
+  * GET - library/books
+  * GET - library/books/{id_number}
+  * POST - library/books
+  * PUT - library/books/{book_title}
+  * DELETE - library/books/{book_title}
     
 Sample tests : 
-    * GET - http://localhost:3000/orders/1234
-    * POST - http://localhost:3000/products/
-    * GET - http://localhost:3000/library/books
+  * GET - http://localhost:3000/orders/1234
+  * POST - http://localhost:3000/products/
+  * GET - http://localhost:3000/library/books
 
