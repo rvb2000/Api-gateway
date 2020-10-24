@@ -31,14 +31,14 @@ Order Services
   * GET - orders/{orderId}
   * DELETE - order/{orderId}
   
- Product Services 
+Product Services 
     * GET - products/ 
     * POST - products/
     * GET - products/{productId}
     * PATCH - products/{productId}
     * DELETE - products/{productId}
     
- Book Sevices 
+Book Sevices 
     * GET - library/ 
     * GET - library/books
     * GET - library/books/{id_number}
@@ -46,8 +46,7 @@ Order Services
     * PUT - library/books/{book_title}
     * DELETE - library/books/{book_title}
     
-    
- Sample tests : 
+Sample tests : 
     * GET - http://localhost:3000/orders/1234
     * POST - http://localhost:3000/products/
     * GET - http://localhost:3000/library/books
